@@ -5,27 +5,28 @@ title: Quran Palace Development
 # Quran Palace #
 
 ## Library
-* **Quran
+* **Quran**
 	* [orthography](QuranOrthographies)
 	[\# *Collect*](https://github.com/QuranPalace/quranpalace.github.io/issues/1)
-	* 
-* Books
-	* data
+	* **Quran Applications**
+		* collect and review different quranic applications (web, client, mobile,...) and extract features and ux
+* **Books**
+	* *data*
 		* جمع آوری و دسته بندی لیست کتب
-* Hadith
-	* data
+* **Hadith**
+	* *data*
 		* افزودن روش های حدیثی در مکاتب اسلامی به دانشنامه
 		* ارایه لیست احادیث ارایه شده در بانک حدیث
 		* احادیث باقی مانده با اولویت ‌ها
-* Translations
-	* data
+* **Translations**
+	* *data*
 		* لیست همه ترجمه‌ها و مشخص شدن ترجمه‌های باقی مانده
 		* ارایه استاندارد ترجمه‌ها بر روی io.quranpalace.net
-* Tafsir
-	* data
+* **Tafsir**
+	* *data*
 		* لیست تفاسیر و کتب مرتبط با آنها
 		* پیگیری تفاسیری که داده‌هایشان هنوز ذیل آیات یا سوره‌ها در پایگاه داده نیامده است
-* Media Archive
+* **Media Archive**
 	
 * **Applications**
 	* [SurahYasin.net](SurahYasinDotNet) [online](http://surahyasin.net) [\#issues](https://github.com/QuranPalace/quranpalace.github.io/issues/2)
