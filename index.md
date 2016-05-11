@@ -16,7 +16,8 @@ title: Quran Palace Development
 * Tafsir
 * Media Archive
 * **Applications**
-	* [SurahYasin.net] [online](http://surahyasin.net) [\#issues]((https://github.com/QuranPalace/quranpalace.github.io/issues/2)
+	* [SurahYasin.net](SurahYasinDotNet) [online](http://surahyasin.net) [\#issues](https://github.com/QuranPalace/quranpalace.github.io/issues/2)
+	
 ## Tags and Relations
 
 ## Concept
