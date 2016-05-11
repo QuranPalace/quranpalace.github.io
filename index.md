@@ -10,6 +10,11 @@ title: Quran Palace Development
 	[\# *Collect*](https://github.com/QuranPalace/quranpalace.github.io/issues/1)
 	* **Quran Applications**
 		* collect and review different quranic applications (web, client, mobile,...) and extract features and ux
+		* collect Quran Web services
+		* collect Quranic data with their liecense
+	* **UX Design**
+		* [Quran View](QuranView)
+		* [Quran Search](QuranSearch)
 * **Books**
 	* *data*
 		* جمع آوری و دسته بندی لیست کتب
@@ -35,9 +40,27 @@ title: Quran Palace Development
 	* 
 	
 ## Tags and Relations
-
+* **NLP Tags**
+	* POS Tags
+	* Grammar Tags
+	* Name Entity Recognition
+	* Finding Phrase and sub-phrase and super-phrase
+	
 ## Concept
+* **Quran Anthology**
+* **Timeline**
+* **SpatioTemporal Map**
+* **Concept Network**
 
 ## Surah
+* **ساختار و نقشه سوره**
+* **ارتباط مفاهیم در سوره**
+* **مفاهیم و معانی مرتفع**
+* **روایتگری خدا**
+
 
 ## User Uplifting
+* **فهم قرآن**
+* **همراهی در برداشت مرتفع**
+* **سکونت در ارتفاعات مفاهیم**
+* **رفتار عملی**
