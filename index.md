@@ -45,7 +45,7 @@ title: Quran Palace Development
 		* تغییر صوت موجود قرآن بر اساس لحن‌های مختلف
 
 * **Applications**
-	* [SurahYasin.net](SurahYasinDotNet) [online](http://surahyasin.net) [\#issues](https://github.com/QuranPalace/quranpalace.github.io/issues/2)
+	* [SurahYasin.net](SurahYasinDotNet) [online](http://surahyasin.net) [preview](http://yaasin.ajorloo.com/#/) [\#issues](https://github.com/QuranPalace/quranpalace.github.io/issues/2)
 	* Qur'an desktop application
 	* Hadith Online Database
 	* 
