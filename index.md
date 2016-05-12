@@ -28,6 +28,7 @@ title: Quran Palace Development
 		* افزودن روش های حدیثی در مکاتب اسلامی به دانشنامه
 		* ارایه لیست احادیث ارایه شده در بانک حدیث
 		* احادیث باقی مانده با اولویت ‌ها
+	* [ایده‌هایی برای مخاطبین مختلف در فضای حدیث](HadithIdeasForDifferentUsers)
 * **Translations**
 	* *data*
 		* لیست همه ترجمه‌ها و مشخص شدن ترجمه‌های باقی مانده
@@ -68,7 +69,9 @@ title: Quran Palace Development
 	* [نیازمندی‌های تحقیق واژه‌ای قرآنی](QuranConceptResearchRequirements)
 * **Timeline**
 * **SpatioTemporal Map**
+	* نگاه آیاتی
 * **Concept Network**
+	* [نگاه شبکه‌ای](QuranConceptNet)
 
 ## Surah
 * **ساختار و نقشه سوره**
