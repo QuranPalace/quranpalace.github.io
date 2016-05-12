@@ -1,0 +1,4 @@
+---
+layout: default
+---
+# Quran View

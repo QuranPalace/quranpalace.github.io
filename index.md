@@ -17,10 +17,8 @@ title: Quran Palace Development
 			* جایگزین صفحه قرآن
 			* نمایش با تمرکز به قطعات آیه مورد توجه برای شما
 			* نمایش برگی
-			* پس زمینه‌های مختلف با شکل‌های مختلف روی آیه: (مثلا باغ در آیه‌های بهشت یا رنگ) آیه‌ها را روی چیزهای مختلف بکشد آیه را با شکل‌های طبیعی همراه کنیم تا ذهن دنبال کند.
 			* نمایش سه بعدی [\# idea](https://github.com/QuranPalace/quranpalace.github.io/issues/3)
 			* شهر قرآن [\# idea](https://github.com/QuranPalace/quranpalace.github.io/issues/4)
-			* ایجاد توجه (flash bulb)
 		* [Quran Search](QuranSearch)
 * **Books**
 	* *data*
@@ -34,6 +32,8 @@ title: Quran Palace Development
 	* *data*
 		* لیست همه ترجمه‌ها و مشخص شدن ترجمه‌های باقی مانده
 		* ارایه استاندارد ترجمه‌ها بر روی io.quranpalace.net
+	* **UX Design**
+		* 	[View Quran Translations](QuranTranslationsView)
 * **Tafsir**
 	* *data*
 		* لیست تفاسیر و کتب مرتبط با آنها
