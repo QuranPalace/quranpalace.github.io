@@ -1,7 +1,8 @@
-* ---
-* layout: default
-* ---
-* # Quran View
+---
+layout: default
+---
+# Quran View
+
 * هدف: 
 	* فهم قرآن
 	* ترجمه طوري باشد که بفهمي قرآن را
