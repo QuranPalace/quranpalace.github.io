@@ -52,10 +52,11 @@ title: Quran Palace Development
 	
 ## Tags and Relations
 * **NLP Tags**
-	* POS Tags
-	* Grammar Tags
-	* Name Entity Recognition
-	* Finding Phrase and sub-phrase and super-phrase
+	* **POS Tags**
+	* **Grammar Tags**
+	* **Name Entity Recognition**
+	* **Finding Phrase and sub-phrase and super-phrase**
+		* [سیاق](QuranSiaq)
 	
 ## Concept
 * **Quran Anthology**
