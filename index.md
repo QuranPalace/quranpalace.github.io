@@ -45,10 +45,15 @@ title: Quran Palace Development
 		* تغییر صوت موجود قرآن بر اساس لحن‌های مختلف
 
 * **Applications**
-	* [SurahYasin.net](SurahYasinDotNet) [online](http://surahyasin.net) [preview](http://yaasin.ajorloo.com/#/) [\#issues](https://github.com/QuranPalace/quranpalace.github.io/issues/2)
-	* Qur'an desktop application
-	* Hadith Online Database
-	* 
+	* (Quran Research Requirements)[QuranResearchRequirements]
+	* **Quran Read And Research**
+		* Qur'an desktop application
+		* Quran Mobile Applications
+		* Quran Online Site
+		* ساختار سوره: [SurahYasin.net](SurahYasinDotNet) [online](http://surahyasin.net) [preview](http://yaasin.ajorloo.com/#/) [\#issues](https://github.com/QuranPalace/quranpalace.github.io/issues/2)
+	* **Library**
+		* Hadith Online Database
+
 	
 ## Tags and Relations
 * **NLP Tags**
@@ -60,6 +65,7 @@ title: Quran Palace Development
 	
 ## Concept
 * **Quran Anthology**
+	* [نیازمندی‌های تحقیق واژه‌ای قرآنی](QuranConceptResearchRequirements)
 * **Timeline**
 * **SpatioTemporal Map**
 * **Concept Network**

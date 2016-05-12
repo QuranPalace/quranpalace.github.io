@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Quran View
+# Quran Translations
 
 * هدف: 
 	* فهم قرآن
