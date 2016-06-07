@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Quran Palace Development 
+title: Quran Heavenly Palace Development 
 ---
-# Quran Palace #
+# Quran Heavenly Palace #
 
 ## Library
 * **Quran**
