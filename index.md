@@ -2,12 +2,14 @@
 layout: default
 title: Quran Heavenly Palace Development 
 ---
+
 # Quran Heavenly Palace #
+
 ## General
 * **[اهداف](Aims)**
 * **[درباره ما](AboutUs)**
 * **[فاز‌بندی](Phases)**
-* 
+
 ## Library
 * **Quran**
 	* [orthography](QuranOrthographies)
