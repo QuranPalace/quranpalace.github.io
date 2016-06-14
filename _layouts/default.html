@@ -15,6 +15,14 @@
 				<img id="headerImage" src="static/img/QuranPalace.png"/>
 			</div>
 		</div>
+		{% assign posts=site.posts | where:"lang", page.lang %}
+		<ul>
+		{% for post in posts %}
+		    <li>
+		        <a href="{{ post.url }}">{{ post.title }}</a>
+		    </li>
+		{% endfor %}
+		</ul>
 		<div class="row">
 			<div id="contentPlate" class="column small-12">
 				{{ content }}
