@@ -1,5 +1,8 @@
 ---
 layout: default
+title: aims
+lang: en
+ref: aims
 ---
-# اهداف قصر بهشتی قرآن
+# Main Goals of Quran Heavenly Palace Project
 
