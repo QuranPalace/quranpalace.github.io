@@ -1,4 +1,7 @@
 ---
 layout: default
+title: About Us
+lang: en
+ref: aboutus
 ---
-# درباره ما
+# About us
