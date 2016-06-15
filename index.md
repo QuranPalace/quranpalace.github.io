@@ -8,9 +8,9 @@ ref: index
 # Quran Heavenly Palace #
 
 ## General
-* **[Aims]**
-* **[AboutUs]**
-* **[Phases]**
+* **[Aims](Aims)**
+* **[AboutUs](AboutUs)**
+* **[Phases](Phases)**
 
 ## Library
 * **Quran**
@@ -21,7 +21,7 @@ ref: index
 		* collect Quran Web services
 		* collect Quranic data with their liecense
 	* **UX Design**
-		* [Quran View](QuranView)
+		* Quran View
 			* جایگزین صفحه قرآن
 			* نمایش با تمرکز به قطعات آیه مورد توجه برای شما
 			* نمایش برگی
@@ -44,8 +44,7 @@ ref: index
 
 * **Translations**
 	* *data*
-		* لیست همه ترجمه‌ها و مشخص شدن ترجمه‌های باقی مانده
-		* ارایه استاندارد ترجمه‌ها بر روی io.quranpalace.net
+		* [QuranTranslations](QuranTranslations)
 	* **UX Design**
 		* 	[View Quran Translations](QuranTranslationsView)
 * **Tafsir**
@@ -75,16 +74,16 @@ ref: index
 	* **Grammar Tags**
 	* **Name Entity Recognition**
 	* **Finding Phrase and sub-phrase and super-phrase**
-		* [سیاق](QuranSiaq)
+		* [QuranSiaq](QuranSiaq)
 	
 ## Concept
 * **Quran Anthology**
-	* [نیازمندی‌های تحقیق واژه‌ای قرآنی](QuranConceptResearchRequirements)
+	* [Quran Concept Research Requirements](QuranConceptResearchRequirements)
 * **Timeline**
 * **SpatioTemporal Map**
 	* نگاه آیاتی
 * **Concept Network**
-	* [نگاه شبکه‌ای](QuranConceptNet)
+	* [Quran Concept Net](QuranConceptNet)
 
 ## Surah
 * **ساختار و نقشه سوره**
