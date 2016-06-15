@@ -7,7 +7,9 @@
 		<link href='static/css/fonts.css' rel='stylesheet' type='text/css'>
 		<link href='static/css/fontello.css' rel='stylesheet' type='text/css'>
 		<link href='static/css/foundation.css' rel='stylesheet' type='text/css'>
-		<link href='static/css/index.css' rel='stylesheet' type='text/css'>
+		{% if page.lang %}
+		<link href='static/css/index-{{ page.lang }}.css' rel='stylesheet' type='text/css'>
+		{% endif %}
 	</head>
 	<body>
 		<div class="row fullWidth">
@@ -40,6 +42,7 @@
 		</div>
 		<div id="footerPlate" class="row fullWidth">
 			<a class="github" href="https://github.com/QuranPalace" target="_blank"></a>
+			<a class="homeicon" href="/" target="_blank"></a>
 		</div>
 	</body>
 </html>

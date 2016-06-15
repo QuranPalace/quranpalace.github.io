@@ -1,4 +1,7 @@
 ---
 layout: default
+title: Phases
+lang: en
+ref: phases
 ---
-# فازبندی
+# Phases
