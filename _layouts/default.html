@@ -41,8 +41,10 @@
 			</div>
 		</div>
 		<div id="footerPlate" class="row fullWidth">
-			<a class="github" href="https://github.com/QuranPalace" target="_blank"></a>
-			<a class="homeicon" href="/" target="_blank"></a>
+		{% if page.lang %}
+			<a class="github" href="/index-{{ page.lang }}"></a>
+		{% endif %}
+			
 		</div>
 	</body>
 </html>
