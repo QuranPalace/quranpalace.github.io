@@ -59,7 +59,7 @@ ref: index
 		* تغییر صوت موجود قرآن بر اساس لحن‌های مختلف
 
 * **نرم‌افزارها**
-	* (Quran Research Requirements)[QuranResearchRequirements]
+	* (نیازمندی‌های تحقیق قرآنی)[نیازمندی‌های تحقیق قرآنی]
 	* **Quran Read And Research**
 		* Qur'an desktop application
 		* Quran Mobile Applications
