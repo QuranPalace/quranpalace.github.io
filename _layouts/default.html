@@ -42,9 +42,15 @@
 		</div>
 		<div id="footerPlate" class="row fullWidth">
 		{% if page.lang %}
-			<a class="github" href="/index-{{ page.lang }}"></a>
-		{% endif %}
-			
+			{% case page.lang %}
+				{% when 'en' %}
+					<a class="github" href="/index"></a>
+				{% when 'en' %}
+					<a class="github" href="/index-fa"></a>
+			{% endcase %}
+		{% else %}
+			<a class="github" href="/index"></a>
+		{% endif %}	
 		</div>
 	</body>
 </html>
