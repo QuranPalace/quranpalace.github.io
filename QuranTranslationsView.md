@@ -2,7 +2,7 @@
 layout: default
 title: Quran Translations
 lang: en
-ref: qurantranslations
+ref: qurantranslationsview
 ---
 # Quran Translations
 
