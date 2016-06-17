@@ -6,6 +6,11 @@ body
 {
 	direction: rtl;
 }
+h1,h2,h3,h4,h5,h6,p,span,a,li,ul
+{
+	direction: rtl;
+	text-align: right;
+}
 .column,.columns
 {
   float:right;
