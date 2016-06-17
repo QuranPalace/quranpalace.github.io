@@ -118,7 +118,6 @@ a:hover
 		span
 		{
 			display: block;
-			margin-top: 0.3rem;
 			font-family: fontello;
 			color: $mainColor;
 			font-size: 1.2rem;
@@ -128,6 +127,7 @@ a:hover
 	{
 		span
 		{
+			display: block;
 			margin: 0px;
 			font-size: 1rem;
 			color: $mainColor;
