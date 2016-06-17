@@ -7,6 +7,7 @@
 		<link href='static/css/fonts.css' rel='stylesheet' type='text/css'>
 		<link href='static/css/fontello.css' rel='stylesheet' type='text/css'>
 		<link href='static/css/foundation.css' rel='stylesheet' type='text/css'>
+		<link href='static/css/base.css' rel='stylesheet' type='text/css'>
 		{% if page.lang %}
 		<link href='static/css/index-{{ page.lang }}.css' rel='stylesheet' type='text/css'>
 		{% endif %}
@@ -18,26 +19,55 @@
 			</div>
 		</div>
 		<div class="row">
-		<ul>
-			{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-			{% for post in posts %}
-			  <li>
-			    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-			  </li>
-			{% endfor %}
-			
-			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-			{% for page in pages %}
-			  <li>
-			    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-			  </li>
-			{% endfor %}
-			</ul>
-		</ul>
-		<a href="https://github.com/QuranPalace/quranpalace.github.io/edit/master/{{ page.path }}">edit</a>
+		
+		
 		</div>
 		<div class="row">
 			<div id="contentPlate" class="column small-12">
+				<ul id="changeLangBox">
+					{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+					{% for post in posts %}
+					  <li>
+					    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+					  </li>
+					  <li class="line"><div></div></li>
+					{% endfor %}
+					
+					{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+					{% for page in pages %}
+					  <li>
+					    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+					  </li>
+					  <li class="line"><div></div></li>
+					{% endfor %}
+				</ul>
+				
+				{% if page.lang %}
+					{% case page.lang %}
+						{% when 'en' %}
+							<table class="iconTextBox">
+								<tr>
+									<td class="iconBox">
+										<span></span>
+									</td>
+									<td class="textBox">
+										<a href="https://github.com/QuranPalace/quranpalace.github.io/edit/master/{{ page.path }}">Edit</a>
+									</td>
+								</tr>
+							</table>
+						{% when 'fa' %}
+							<table class="iconTextBox">
+								<tr>
+									<td class="iconBox">
+										<span></span>
+									</td>
+									<td class="textBox">
+										<a href="https://github.com/QuranPalace/quranpalace.github.io/edit/master/{{ page.path }}">ویرایش</a>
+									</td>
+								</tr>
+							</table>
+					{% endcase %}
+				{% else %}
 				{{ content }}
 			</div>
 		</div>

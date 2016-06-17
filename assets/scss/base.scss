@@ -3,7 +3,7 @@ $seconderyBackgroundColor: #EDEDED;
 $mainColor : #22819F;
 $mainTextColor: #303030;
 $mainFont: IRANSans;
-
+$grayColor: #909090;
 $seconderyColor: #299997;
 $seconderyColorDark: #0D6A71;
 
@@ -80,5 +80,57 @@ a:hover
 			 -moz-transition: color 0.3s ease;
 			   -o-transition: color 0.3s ease;
 		        transition: color 0.3s ease;
+	}
+}
+
+#changeLangBox
+{
+	display: table;
+	list-style-type: none;
+	li
+	{
+		display: table-cell;
+		text-transform: uppercase;
+		padding-left: 0.4rem;
+		padding-right: 0.4rem;
+		vertical-align: middle;
+	}
+	li.line
+	{
+		div
+		{
+			width: 2px;
+			height: 1rem;
+			padding: 0px;
+			background-color: $grayColor;
+		}
+	}
+	li.line:last-child
+	{
+		display: none;
+	}
+}
+.iconTextBox
+{
+	td.iconBox
+	{
+		padding-left: 0.3rem;
+		padding-right: 0.3rem;
+		span
+		{
+			display: block;
+			margin-top: 0.3rem;
+			font-family: fontello;
+			color: $mainColor;
+			font-size: 1.2rem;
+		}
+	}
+	td.textBox
+	{
+		a
+		{
+			margin: 0px;
+			font-size: 1rem;
+		}
 	}
 }
