@@ -6,5 +6,5 @@ lang: en
 
 # Quran Heavenly Palace Development Area #
 
-* **[English](index-en)
-* **[فارسی](index-fa)
+* [English](index-en)
+* [فارسی](index-fa)
