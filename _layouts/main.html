@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>{% if page.title %} {{ page.title }} {% endif %}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link href='static/css/fonts.css' rel='stylesheet' type='text/css'>
+		<link href='static/css/fontello.css' rel='stylesheet' type='text/css'>
+		<link href='static/css/foundation.css' rel='stylesheet' type='text/css'>
+		<link href='static/css/base.css' rel='stylesheet' type='text/css'>
+		{% if page.lang %}
+		<link href='static/css/index-{{ page.lang }}.css' rel='stylesheet' type='text/css'>
+		{% else %}
+		<link href='static/css/index-en.css' rel='stylesheet' type='text/css'>
+		{% endif %}
+	</head>
+	<body>
+		<div class="row fullWidth">
+			<div class="column small-12 paddingless">
+				<center><img id="headerImage" src="static/img/QuranPalace.png"/></center>
+			</div>
+		</div>
+		<div class="row">
+		
+		
+		</div>
+		<div class="row">
+			<div id="contentPlate" class="column small-12">
+				{{ content }}
+			</div>
+		</div>
+
+		{% if page.lang %}
+			{% case page.lang %}
+				{% when 'en' %}
+					<a class="github" href="/index-en"></a>
+				{% when 'fa' %}
+					<a class="github" href="/index-fa"></a>
+			{% endcase %}
+		{% else %}
+			<a class="github" href="/index"></a>
+		{% endif %}	
+		</div>
+	</body>
+</html>
