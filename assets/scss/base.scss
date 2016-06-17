@@ -126,10 +126,11 @@ a:hover
 	}
 	td.textBox
 	{
-		a
+		span
 		{
 			margin: 0px;
 			font-size: 1rem;
+			color: $mainColor;
 		}
 	}
 }

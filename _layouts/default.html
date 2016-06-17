@@ -45,27 +45,31 @@
 				{% if page.lang %}
 					{% case page.lang %}
 						{% when 'en' %}
-							<table class="iconTextBox">
-								<tr>
-									<td class="iconBox">
-										<span></span>
-									</td>
-									<td class="textBox">
-										<a href="https://github.com/QuranPalace/quranpalace.github.io/edit/master/{{ page.path }}">Edit</a>
-									</td>
-								</tr>
-							</table>
+							<a href="https://github.com/QuranPalace/quranpalace.github.io/edit/master/{{ page.path }}">
+								<table class="iconTextBox">
+									<tr>
+										<td class="iconBox">
+											<span></span>
+										</td>
+										<td class="textBox">
+											<span>Edit</span>
+										</td>
+									</tr>
+								</table>
+							</a>
 						{% when 'fa' %}
-							<table class="iconTextBox">
-								<tr>
-									<td class="iconBox">
-										<span></span>
-									</td>
-									<td class="textBox">
-										<a href="https://github.com/QuranPalace/quranpalace.github.io/edit/master/{{ page.path }}">ویرایش</a>
-									</td>
-								</tr>
-							</table>
+							<a href="https://github.com/QuranPalace/quranpalace.github.io/edit/master/{{ page.path }}">
+								<table class="iconTextBox">
+									<tr>
+										<td class="iconBox">
+											<span></span>
+										</td>
+										<td class="textBox">
+											<span>ویرایش</span>
+										</td>
+									</tr>
+								</table>
+							</a>
 					{% endcase %}
 				{% else %}
 					<table class="iconTextBox">
